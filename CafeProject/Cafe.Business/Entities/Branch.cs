@@ -12,19 +12,19 @@ namespace Cafe.Business
         private string _address;
         private string _code;
 
-        public string Name
+        public virtual string Name
         {
             get { return _name; }
             set { _name = value; }
         }
 
-        public string Address
+        public virtual string Address
         {
             get { return _address; }
             set { _address = value; }
         }
 
-        public string Code
+        public virtual string Code
         {
             get { return _code; }
             set { _code = value; }

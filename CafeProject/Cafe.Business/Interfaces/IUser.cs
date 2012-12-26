@@ -8,6 +8,7 @@ namespace Cafe.Business
 {
     public interface IUser
     {
+        string Name { get; }
         string Username { get; set; }
         string Password { get; set; }
         string PasswordSalt { get; set; }

@@ -10,7 +10,7 @@ namespace Cafe.Helpers
 {
     public static class MainHelper
     {
-        public static new string[] EncrytPassword(string newPassword)
+        public static string[] EncrytPassword(string newPassword)
         {   
             ICryptoService cryptoService = new PasswordPBKDF2();
             string encryptedPassword = cryptoService.Compute(newPassword);
