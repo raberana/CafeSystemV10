@@ -25,15 +25,17 @@ namespace Cafe.DbIntermediator
         {
             if (_sessionFactory == null)
                 InitializeSessionFactory();
-            // _sessionFactory = new Configuration().Configure().BuildSessionFactory();
-        }
 
+        }
+        
         private static void InitializeSessionFactory()
         {
             _sessionFactory = Fluently.Configure()
                 .Database(MsSqlConfiguration.MsSql2008
                   .ConnectionString(
-                  @"Server=localhost;initial catalog=cafe_system_10; user=cafev10;password=cafev10123;") // Modify your ConnectionString
+                  //@"Server = localhost; Database = cafe_system_10; User = cafev10; Password = cafev10123;"
+                  @"Server=bbf20779-8077-4304-a641-a13300eda3ee.sqlserver.sequelizer.com;Database=dbbbf2077980774304a641a13300eda3ee;User ID=ueqzdeswmrubcokv;Password=w7vVvfDXpCQDfs7cJHHHZmGFH82qXNLGyHyXsJ5QNWNNCnWmSVADaYajxWmwmoaH;"
+                                   ) 
                               .ShowSql()
                 )
                 .Mappings(m =>m.FluentMappings
