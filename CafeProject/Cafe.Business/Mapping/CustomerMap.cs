@@ -11,15 +11,12 @@ namespace Cafe.Business.Mapping
     {
         public CustomerMap()
         {
+            Map(x => x.Id);
             Map(x => x.Name);
-            Map(x => x.Username);
-            Map(x => x.Password);
-            Map(x => x.PasswordSalt);
             Map(x => x.Address);
             Map(x => x.EmailAddress);
             Map(x => x.TelNumber);
             Map(x => x.MobileNumber);
-            Map(x => x.LastLogin);
             Table("Customer");
         }
     }

@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/jquery")
+</head>
+<body>
+    <div id="Logo">
+        <a href="~/Home/Index"><img  id="CafeLogo" src="~/Content/Resources/Logo.png" alt="The 26th Ave Cafe" /></a>
+    </div>
+    <div id="Navigation">
+        <div class="Menu">
+            <ul>
+                <li>
+                    @Html.ActionLink("ABOUT", "AboutPage", "Home")
+                </li>
+                <li>
+                    @Html.ActionLink("MENU", "MenuPage", "Home")
+                </li>
+                <li>
+                    ORDER
+                </li>
+                <li>
+                    @Html.ActionLink("HOURS AND LOCATION", "HoursLocationPage", "Home")
+                </li>
+                <li>
+                    @Html.ActionLink("FAQs", "FaqPage", "Home")
+                </li>
+            </ul>
+        </div>
+        <div id="Social">
+            <ul>
+                <li>
+                    <img src="~/Content/Resources/Blogger.png" />
+                </li>
+                <li>
+                    <img src="~/Content/Resources/Facebook.png" />
+
+                </li>
+                <li>
+                    <img src="~/Content/Resources/Google%20plus.png" />
+
+                </li>
+                <li>
+                    <img src="~/Content/Resources/RSS.png" />
+
+                </li>
+                <li>
+                    <img src="~/Content/Resources/Tumblr.png" />
+
+                </li>
+                <li>
+                    <img src="~/Content/Resources/Twitter.png" />
+
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="Content">
+        @RenderBody()
+    </div>
+</body>
+</html>

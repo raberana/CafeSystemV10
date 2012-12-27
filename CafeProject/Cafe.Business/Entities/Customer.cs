@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cafe.Business
 {
-    public class Customer : IUser 
+    public class Customer
     {
         private string _firstName;
         private string _lastName;
@@ -14,7 +14,6 @@ namespace Cafe.Business
         private string _address;
         private string _mobileNumber;
         private string _telNumber;
-        private DateTime _lastLogin;
 
         public virtual string Name
         {
@@ -63,28 +62,6 @@ namespace Cafe.Business
             set { _telNumber = value; }
         }
 
-        public virtual string Username
-        {
-            get;
-            set;
-        }
-
-        public virtual string Password
-        {
-            get;
-            set;
-        }
-
-        public virtual string PasswordSalt
-        {
-            get;
-            set;
-        }
-
-        public virtual DateTime LastLogin
-        {
-            get { return _lastLogin; }
-            set { _lastLogin = value; }
-        }
+        public virtual int Id { get; set; }
     }
 }

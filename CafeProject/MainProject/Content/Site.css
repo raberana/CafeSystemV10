@@ -1,0 +1,108 @@
+﻿body {
+    margin: 20px 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.Menu a:link {
+    /* Applies to all unvisited links */
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.Menu a:visited {
+    /* Applies to all visited links */
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.Menu a:hover {
+    /* Applies to links under the pointer */
+    font-weight: bold;
+    color: black;
+    border-top: 3px solid #18055E;
+}
+
+.Menu a:active {
+    /* Applies to activated links */
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    border-top: 3px solid #18055E;
+}
+
+
+#Logo {
+    width: 950px;
+    margin: 0px auto;
+    text-align: right;
+    padding: 0px;
+    clear: both;
+    border-bottom: 1px solid #333;
+}
+
+#CafeLogo {
+    width: auto;
+    height: 83px;
+}
+
+#Navigation {
+    width: 950px;
+    margin: 2px auto;
+    clear: both;
+}
+
+.Menu {
+    float: left;
+    clear: none;
+}
+
+    .Menu ul {
+        list-style: none;
+        display: initial;
+    }
+
+    .Menu li {
+        display: inline;
+        float: left;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-family: 'Arial';
+        font-weight: bold;
+        font-size: 11px;
+    }
+
+#Social {
+    float: right;
+    clear: none;
+    margin: -5px auto;
+}
+
+    #Social ul {
+        list-style: none;
+        display: initial;
+    }
+
+    #Social li {
+        display: inline;
+        float: left;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-family: 'Arial';
+        font-weight: bold;
+        font-size: 11px;
+    }
+
+    #Social img {
+        width: auto;
+        height: 30px;
+    }
+
+#Content {
+    clear: both;
+    width: 950px;
+    margin: 0px auto;
+    text-align: left;
+}
