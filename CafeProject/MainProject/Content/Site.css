@@ -22,7 +22,8 @@
     /* Applies to links under the pointer */
     font-weight: bold;
     color: black;
-    border-top: 3px solid #18055E;
+    border-top: 5px solid #5F9EA0;
+    border-bottom: 20px solid #5F9EA0;
 }
 
 .Menu a:active {
@@ -30,7 +31,8 @@
     text-decoration: none;
     font-weight: bold;
     color: black;
-    border-top: 3px solid #18055E;
+    border-top: 5px solid #5F9EA0;
+    border-bottom: 20px solid #5F9EA0;
 }
 
 
@@ -57,6 +59,7 @@
 .Menu {
     float: left;
     clear: none;
+    padding-bottom: 20px;
 }
 
     .Menu ul {
@@ -67,11 +70,12 @@
     .Menu li {
         display: inline;
         float: left;
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
         font-family: 'Arial';
         font-weight: bold;
         font-size: 11px;
+        white-space:pre-wrap;
     }
 
 #Social {
@@ -105,4 +109,5 @@
     width: 950px;
     margin: 0px auto;
     text-align: left;
+    border-top: 2px dashed;
 }
