@@ -157,6 +157,12 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Content Include="Content\Resources\Blogger.png" />
+    <Content Include="Content\Resources\cafe1.jpg" />
+    <Content Include="Content\Resources\cafe2.jpg" />
+    <Content Include="Content\Resources\cafe3.jpg" />
+    <Content Include="Content\Resources\cafe4.jpg" />
+    <Content Include="Content\Resources\cafe5.jpg" />
+    <Content Include="Content\Resources\cafe6.jpg" />
     <Content Include="Content\Resources\Facebook.png" />
     <Content Include="Content\Resources\Google plus.png" />
     <Content Include="Content\Resources\Logo.png" />
@@ -166,6 +172,7 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <None Include="Scripts\jquery-1.8.3.intellisense.js" />
+    <Content Include="Scripts\IndexCustom.js" />
     <Content Include="Scripts\jquery-1.8.3.js" />
     <Content Include="Scripts\jquery-1.8.3.min.js" />
     <Content Include="Web.config" />

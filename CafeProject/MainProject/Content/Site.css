@@ -75,7 +75,7 @@
         font-family: 'Arial';
         font-weight: bold;
         font-size: 11px;
-        white-space:pre-wrap;
+        white-space: pre-wrap;
     }
 
 #Social {
@@ -110,4 +110,11 @@
     margin: 0px auto;
     text-align: left;
     border-top: 2px dashed;
+    border-bottom: 1px dashed;
+    padding-bottom: 25px;
+}
+
+#Footer {
+    clear: both;
+   
 }

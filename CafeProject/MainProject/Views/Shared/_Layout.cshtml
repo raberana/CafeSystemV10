@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
     @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/siteCustom")
+    @*@Scripts.Render("~/bundles/jquery")*@
 </head>
 <body>
     <div id="Logo">
@@ -52,6 +53,9 @@
     </div>
     <div id="Content">
         @RenderBody()
+    </div>
+    <div id="Footer">
+        THIS IS THE FOOTER
     </div>
 </body>
 </html>
