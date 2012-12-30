@@ -4,36 +4,7 @@
     text-align: center;
 }
 
-.Menu a:link {
-    /* Applies to all unvisited links */
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-}
 
-.Menu a:visited {
-    /* Applies to all visited links */
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-}
-
-.Menu a:hover {
-    /* Applies to links under the pointer */
-    font-weight: bold;
-    color: black;
-    border-top: 5px solid #5F9EA0;
-    border-bottom: 20px solid #5F9EA0;
-}
-
-.Menu a:active {
-    /* Applies to activated links */
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-    border-top: 5px solid #5F9EA0;
-    border-bottom: 20px solid #5F9EA0;
-}
 
 
 #Logo {
@@ -78,6 +49,38 @@
         white-space: pre-wrap;
     }
 
+    .Menu .IndexListButtons a:link {
+        /* Applies to all unvisited links */
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+    }
+
+    .Menu .IndexListButtons a:visited {
+        /* Applies to all visited links */
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+    }
+
+    .Menu .IndexListButtons a:hover {
+        /* Applies to links under the pointer */
+        font-weight: bold;
+        color: black;
+        border-top: 5px solid #5F9EA0;
+        border-bottom: 20px solid #5F9EA0;
+    }
+
+    .Menu .IndexListButtons a:active {
+        /* Applies to activated links */
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        border-top: 5px solid #5F9EA0;
+        border-bottom: 20px solid #5F9EA0;
+    }
+
+
 #Social {
     float: right;
     clear: none;
@@ -110,11 +113,9 @@
     margin: 0px auto;
     text-align: left;
     border-top: 2px dashed;
-    border-bottom: 1px dashed;
-    padding-bottom: 25px;
+    border-bottom: 2px dashed;
 }
 
 #Footer {
     clear: both;
-   
 }

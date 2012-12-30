@@ -10,17 +10,17 @@
 </head>
 <body>
     <div id="Logo">
-        <a href="~/Home/Index">
+        <a href="/">
             <img id="CafeLogo" src="~/Content/Resources/Logo.png" alt="The 26th Ave Cafe" /></a>
     </div>
     <div id="Navigation">
         <div class="Menu">
             <ul>
-                <li>@Html.ActionLink("   ABOUT   ", "AboutPage", "Home")</li>
-                <li>@Html.ActionLink("   MENU   ", "MenuPage", "Home")</li>
-                <li>@Html.ActionLink("   ORDER   ", "OrderIndex", "Order")</li>
-                <li>@Html.ActionLink("  HOURS AND LOCATION  ", "HoursLocationPage", "Home") </li>
-                <li>@Html.ActionLink("   FAQs   ", "FaqPage", "Home")</li>
+                <li id ="AboutPage" class="IndexListButtons">@Html.ActionLink("   ABOUT   ", "AboutPage", "Home")</li>
+                <li id ="MenuPage"  class="IndexListButtons">@Html.ActionLink("   MENU   ", "MenuPage", "Home")</li>
+                <li id ="OrderIndex"  class="IndexListButtons">@Html.ActionLink("   ORDER   ", "OrderIndex", "Order")</li>
+                <li id ="HoursLocationPage"  class="IndexListButtons">@Html.ActionLink("  HOURS AND LOCATION  ", "HoursLocationPage", "Home") </li>
+                <li id ="FaqPage"  class="IndexListButtons">@Html.ActionLink("   FAQs   ", "FaqPage", "Home")</li>
             </ul>
         </div>
         <div id="Social">
@@ -55,7 +55,6 @@
         @RenderBody()
     </div>
     <div id="Footer">
-        THIS IS THE FOOTER
     </div>
 </body>
 </html>
