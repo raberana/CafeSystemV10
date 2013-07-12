@@ -1,13 +1,11 @@
 ﻿window.onload = function pageLoads() {
     var url = document.URL;
     var urlComponents = url.split("/");
-    
+    debugger;
     if (urlComponents.length <= 4)
         swapPic();
-    else
-    {
-        switch (urlComponents[4])
-        {
+    else {
+        switch (urlComponents[4]) {
             case "AboutPage": setActiveUrlStyle("AboutPage");
                 break;
 
@@ -25,7 +23,7 @@
 
         }
     }
-}
+};
 
 function swapPic()
 {
